@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
+import colors from '~/styles/colors';
 
 export const Wrapper = styled.div`
   height: 100%;
-  background: linear-gradient(-90deg, #7159c1, #ab59c1);
+  background: linear-gradient(-90deg, ${colors.purple}, ${colors.pink});
   display: flex;
   justify-content: center;
   align-items: center;

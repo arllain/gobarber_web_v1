@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import colors from '~/styles/colors';
 
 export const Container = styled.div`
   background: #fff;
@@ -24,13 +25,13 @@ export const Content = styled.div`
     }
     a {
       font-weight: bold;
-      color: #7159c1;
+      color: ${colors.primary};
     }
   }
 
   aside {
     display: flex;
-    color: #7159c1;
+    color: ${colors.primary};
   }
 `;
 
